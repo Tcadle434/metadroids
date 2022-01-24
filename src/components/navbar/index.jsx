@@ -65,12 +65,12 @@ export function Navbar(props) {
     
     <AccessibilityContainer>
       <ButtonWrap>
-        <a href = "https://twitter.com/metamorfans">
+        <a href = "https://twitter.com/MetaDroidsNFT">
                 <SocialMediaImg src={TwitterImg} />
         </a>
       </ButtonWrap>
       <ButtonWrap>
-        <a href = "https://discord.gg/C4BPRXvdYr">
+        <a href = "">
             <SocialMediaImg src={DiscordImg} />
         </a>
       </ButtonWrap>

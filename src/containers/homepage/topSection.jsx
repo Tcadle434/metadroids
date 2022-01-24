@@ -35,11 +35,25 @@ const BackgroundContainer = styled.div`
 const ContainerContent = styled.div`
     margin-block-start: 10em;
     margin-block-end: 2em;
+
+    @media screen and (max-width: 480px) {
+        margin-block-start: 12em;
+    }
 `;
 
 const TextContainer = styled.div`
     width: 50%;
     margin: auto;
+
+    @media screen and (min-width: 1200px) and (max-width: 1440px) {
+        width: 70%;
+    }
+      @media screen and (min-width: 480px) and (max-width: 1200px) {
+        width: 80%;
+    }
+     @media screen and (max-width: 480px) {
+        width: 90%;
+    }
 `;
 
 const SubTitle = styled.h2`
@@ -47,7 +61,13 @@ const SubTitle = styled.h2`
     font-size: 30px;
     text-align: center;
     font-family: SyneMono-Regular;
-    font-weight: 500;
+
+    @media screen and (min-width: 480px) and (max-width: 1200px) {
+        font-size: 28px;
+    }
+     @media screen and (max-width: 480px) {
+        font-size: 20px;
+    }
 
 `;
 
@@ -57,11 +77,25 @@ const LandingContent = styled.h3`
     text-align: center;
     font-family: SyneMono-Regular;
 
+    @media screen and (min-width: 480px) and (max-width: 1200px) {
+        font-size: 18px;
+    }
+     @media screen and (max-width: 480px) {
+        font-size: 14px;
+    }
+
 `;
 
 const CustomLogoImg = styled.img`
     max-width: 75%;
     margin-block-end: 3em;
+
+    @media screen and (min-width: 480px) and (max-width: 1200px) {
+        max-width: 85%;
+    }
+     @media screen and (max-width: 480px) {
+        max-width: 90%;
+    }
 
 `;
 
