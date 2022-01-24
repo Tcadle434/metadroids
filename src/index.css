@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'SyneMono-Regular';
+  src: local('SyneMono-Regular'), url(./fonts/SyneMono-Regular.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
