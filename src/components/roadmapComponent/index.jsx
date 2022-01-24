@@ -12,8 +12,19 @@ const ServiceContainer = styled.div`
   border: 3px solid #FFFFFF;
   width: 900px;
   @media screen and (max-width: 480px) {
+    @media screen and (min-width: 1200px) and (max-width: 1440px) {
+        width: 700px;
 
-  }
+      }
+      @media screen and (min-width: 480px) and (max-width: 1200px) {
+        width: 600px;
+
+    
+      }
+     @media screen and (max-width: 480px) {
+        width: 300px;
+        display: inline-block;
+    }
 `;
 
 const Details = styled.p`

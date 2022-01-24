@@ -62,6 +62,7 @@ const Details = styled.p`
     }
      @media screen and (max-width: 480px) {
         font-size: 14px;
+        margin-block-end: 1em;
     }
 `;
 
@@ -81,6 +82,7 @@ const ImageContainer = styled.div`
 
     @media screen and (max-width: 480px) {
     margin-block-start: 6em;
+    margin-block-end: 6em;
     display: inline-block;
     align-items: center;
     }

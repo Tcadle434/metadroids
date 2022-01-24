@@ -20,7 +20,6 @@ const ServiceContainer = styled.div`
   webkit-align-items: left !important;
   padding: 20px;
   @media screen and (max-width: 480px) {
-    display: inline-block;
     align-items: center;
 }
 `;
@@ -72,9 +71,8 @@ const Img = styled.img`
   height: 23em;
   width: 23em;
   @media screen and (max-width: 480px) {
-    height: 10em;
-    width: 10em;
-    margin: 0 50%;
+    height: 15em;
+    width: 15em;
 }
 `;
 

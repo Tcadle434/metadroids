@@ -33,8 +33,8 @@ const SocialMediaImg = styled.img`
   height: 2em;
   margin: 30px;
   @media screen and (max-width: 480px) {
-    width: 1.2m;
-    height: 1em;
+    width: 2m;
+    height: 1.75em;
     margin: 10px;
 
 }

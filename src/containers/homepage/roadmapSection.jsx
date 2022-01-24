@@ -26,6 +26,7 @@ const Title = styled.h2`
         font-size: 36px;
     }
      @media screen and (max-width: 480px) {
+        margin-block-start: 6em;
         font-size: 28px;
     }
 `;

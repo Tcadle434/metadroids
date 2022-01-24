@@ -55,10 +55,10 @@ margin-block-start: 3em;
     max-width: 30%;
 
     @media screen and (min-width: 480px) and (max-width: 1200px) {
-        max-width: 25%;
+        max-width: 30%;
     }
      @media screen and (max-width: 480px) {
-        max-width: 30%;
+        max-width: 75%;
     }
 
 `;
