@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Fade from 'react-reveal/Fade';
+import { RoadmapComponent } from "../../components/roadmapComponent";
+import Bounce from 'react-reveal/Bounce';
 
 
 const RoadmapContainer = styled.div`
   width: 100%;
-  background: #000000;
+  background: #090A0A;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,19 +14,35 @@ const RoadmapContainer = styled.div`
 }
 `;
 
-const SubTitle = styled.h2`
+const Title = styled.h2`
     color: #FFFFFF;
-    font-size: 42px;
+    font-size: 64px;
     text-align: center;
     word-spacing: 120%;
     font-family: SyneMono-Regular;
-    margin-block-start: 3em;
+    margin-block-start: 1.5em;
 
     @media screen and (min-width: 480px) and (max-width: 1200px) {
         font-size: 36px;
     }
      @media screen and (max-width: 480px) {
         font-size: 28px;
+    }
+`;
+
+const SubTitle = styled.h2`
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    word-spacing: 120%;
+    font-family: SyneMono-Regular;
+    margin-block-start: 1.5em;
+
+    @media screen and (min-width: 480px) and (max-width: 1200px) {
+        font-size: 32px;
+    }
+     @media screen and (max-width: 480px) {
+        font-size: 24px;
     }
 `;
 
@@ -50,8 +67,27 @@ export function RoadmapSection(props) {
     return(
         <RoadmapContainer>
             <TextContainer> 
-                <SubTitle>Roadmap</SubTitle>
+                <Title>ROADMAP</Title>
             </TextContainer>
+
+            <Bounce bottom>
+            <TextContainer> 
+                <SubTitle>Phase 1</SubTitle>
+            </TextContainer>
+            <RoadmapComponent description='Lorem ipsom dolor et ulam sdunt abunt avorpex ulet'/>
+            </Bounce>
+            <Bounce bottom>
+            <TextContainer> 
+                <SubTitle>Phase 2</SubTitle>
+            </TextContainer>
+            <RoadmapComponent description='Lorem ipsom dolor et ulam sdunt abunt avorpex ulet'/>
+            </Bounce>
+            <Bounce bottom>
+            <TextContainer> 
+                <SubTitle>Phase 3</SubTitle>
+            </TextContainer>
+            <RoadmapComponent description='Lorem ipsom dolor et ulam sdunt abunt avorpex ulet'/>
+            </Bounce>
         </RoadmapContainer>
     );
   }

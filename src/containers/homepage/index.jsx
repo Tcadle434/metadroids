@@ -4,6 +4,8 @@ import { TopSection } from "./topSection";
 import { ContentOne } from "./contentOne";
 import { ContentTwo } from "./contentTwo";
 import { RoadmapSection } from "./roadmapSection";
+import { TeamSection } from "./teamSection";
+import { FooterSection } from "./footerSection";
 
 const PageContainer = styled.div`
 width: 100%;
@@ -19,6 +21,8 @@ export function Homepage(props) {
         <ContentOne />
         <ContentTwo />
         <RoadmapSection />
+        <TeamSection />
+        <FooterSection />
       </PageContainer>
     );
 }
